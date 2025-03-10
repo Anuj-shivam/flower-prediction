@@ -7,6 +7,6 @@ COPY . .
 
 RUN pip install --no-cache-dir flask pandas scikit-learn numpy
 
-EXPOSE 5000
+EXPOSE 6000
 
 CMD ["python", "app.py"]
